@@ -1,301 +1,280 @@
-<div align="center">
+# AI Systems, Agents & Automation
 
-# Pankaj Thakur
+A working portfolio of patterns, architecture and implementation thinking for applied AI systems.
 
-### AI Product & Technology Leader · Growth Engineering · Intelligent Systems
+This repository focuses on the engineering layer behind useful AI products: **agents, tool use, workflow orchestration, structured outputs, retrieval, document intelligence, automation, guardrails, provenance and human approval**.
 
-**I build technology around the customer journey, the operating model and the business outcome.**
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-1e4646?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/pankajvnt/)
-[![HackerNoon](https://img.shields.io/badge/HackerNoon-Author-1e4646?style=for-the-badge&logo=hackernoon&logoColor=white)](https://hackernoon.com/u/pankajvnt)
-[![GitHub](https://img.shields.io/badge/GitHub-Portfolio-1e4646?style=for-the-badge&logo=github&logoColor=white)](https://github.com/pktpankaj)
-
-</div>
+The emphasis is not on isolated prompts or AI-generated demos. It is on designing AI that can operate inside real products and business workflows with clear data boundaries, permissions, failure handling and measurable outcomes.
 
 ---
 
-## Technology leadership, strengthened by 15 years of growth experience
+## Core areas
 
-My background started on the commercial side of technology: building acquisition engines, launching products, shaping positioning and pricing, designing go-to-market systems, improving conversion and creating the operating infrastructure behind growth.
+### AI agents
 
-Over time that work moved deeper into product and engineering. Today I work across **product strategy, system architecture, full-stack development, applied AI, automation, data models, APIs, security, production operations and growth engineering**.
+- Tool-driven agents
+- Specialized agents with bounded responsibilities
+- Multi-step task execution
+- Context and state management
+- Signal-driven agent activation
+- Human escalation and approval
+- Agent observability and auditability
 
-I am most useful where these disciplines meet. I can move from a business problem to a product model, from the product model to an architecture, and from the architecture to a working system while keeping distribution, adoption and revenue in view.
+### Workflow automation
 
-> **The goal is not technology for its own sake. It is building systems that solve useful problems and can actually grow.**
-
----
-
-## What I build
-
-<table>
-<tr>
-<td width="50%" valign="top">
-
-### 🤖 AI & Intelligent Systems
-
-- Applied LLM architecture
-- AI agents and tool-driven workflows
-- Structured outputs and guardrails
-- Document intelligence
-- AI-assisted research and recommendations
-- Human-in-the-loop review
-- Source-backed AI workflows
-- Translation and localization automation
-- AI search / AEO / GEO systems
-
-</td>
-<td width="50%" valign="top">
-
-### ⚙️ Product & Platform Engineering
-
-- Laravel / PHP applications
-- Relational data architecture
-- Filament administration platforms
-- Livewire / Blade product interfaces
-- REST/API integrations
-- OAuth and external providers
-- Role and policy-based authorization
-- Multilingual platforms
-- Production deployment and recovery
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-### 🔁 Automation & Operations
-
-- Workflow engines
 - Signals → rules → actions
-- Assignment and approval systems
-- Operational task orchestration
-- CRM and lifecycle automation
-- Scheduled/background operations
+- Assignment and review workflows
+- Scheduled and event-driven operations
 - Notifications and escalation
-- Audit trails and provenance
-- Human approval boundaries
+- State transitions
+- Rework and resubmission loops
+- Idempotent operations
+- Failure recovery
 
-</td>
-<td width="50%" valign="top">
+### Applied LLM systems
 
-### 📈 Growth Engineering
+- Structured outputs
+- Schema-constrained responses
+- Prompt and context design
+- Retrieval and grounded generation
+- Source-backed recommendations
+- Confidence and uncertainty handling
+- Model/provider abstraction
+- Cost and usage controls
 
-- GTM systems
-- Product-led growth
-- Demand and pipeline architecture
-- CRM infrastructure
-- Lifecycle systems
-- Experimentation
-- Technical SEO
-- AEO / AI discoverability
-- Analytics and attribution
-- Pricing and packaging
+### Document intelligence
 
-</td>
-</tr>
-</table>
+- Extraction from structured and unstructured documents
+- Classification
+- Field normalization
+- Cross-document consistency checks
+- Evidence provenance
+- Human correction workflows
+- Sensitive-document access boundaries
 
----
+### AI governance
 
-## Selected systems & product work
+- Deterministic rules for consequential decisions
+- Human-in-the-loop review
+- Permission-aware tool access
+- Provenance and audit trails
+- Explicit unknowns
+- Graceful degradation
+- Separation of inference from authoritative data
 
-### 🌍 AI-native travel platform
+### AI search and discoverability
 
-A multi-product travel technology platform built around a persistent traveller relationship rather than a collection of disconnected booking pages.
-
-**Product architecture**
-
-`Discover → Clear → Plan → Book → Connect → Travel → Remember`
-
-The system combines independently usable product domains for travel discovery, visa intelligence, AI assistance, traveller context, experiences, commerce and social travel.
-
-**Engineering scope**
-
-- Laravel 13 / PHP 8.4 / MySQL-MariaDB platform architecture
-- Filament 5 operational administration
-- Livewire, Blade and Tailwind application interfaces
-- Ten-language publishing architecture
-- Traveller profile and structured Traveller Graph
-- Provider-neutral commerce and booking foundations
-- AI travel assistance and trip intelligence
-- Structured visa knowledge and deterministic readiness logic
-- Sensitive-document privacy boundaries
-- Social discovery, activities, groups, messaging and moderation architecture
-- Shared operational workflow engine
-- Translation assignment, review, approval and rework lifecycle
-- Intelligent media ingestion, classification and review
-- SEO-safe public/private content architecture
-- Git-based releases, migrations, backups, restore validation and production reconciliation
-
-A central design principle is that **AI can interpret and assist without becoming the authoritative source of truth**. High-consequence workflows combine structured data, deterministic rules, provenance, controlled AI assistance and human review.
-
-**Stack:** `Laravel` · `PHP` · `MySQL/MariaDB` · `Filament` · `Livewire` · `Blade` · `Tailwind CSS` · `OpenAI` · `OAuth` · `REST APIs` · `PHPUnit` · `Git/GitHub`
+- AEO / GEO architecture
+- AI-search visibility monitoring
+- Entity and topic structures
+- Source and citation readiness
+- Content freshness workflows
+- Search data combined with AI interpretation
 
 ---
 
-### 🧠 AI growth operating system
-
-A growth platform designed to turn business context, market data and connected systems into practical work rather than isolated AI prompts.
-
-The product architecture spans:
-
-- Business onboarding and persistent workspace context
-- AI-generated growth planning
-- Website connection and technical/site auditing
-- Search Console and analytics data
-- Keyword, competitor and search-intent intelligence
-- SEO task management
-- AI-search visibility / GEO monitoring
-- Content strategy and content studio workflows
-- Social, email and paid-media operations
-- Lead capture and CRM pipeline
-- Prospecting and enrichment architecture
-- Analytics, attribution and executive reporting
-- Billing, teams, roles and approvals
-- Security, privacy, retention and audit controls
-
-The underlying principle is simple: **OpenAI is one component of the system, not the system itself.** Verified search data, analytics, publishing, CRM, advertising, enrichment and billing require their own providers, contracts and data boundaries.
-
----
-
-### 🔐 Applied AI with governance
-
-I am particularly interested in AI systems where reliability matters more than generating impressive text.
-
-Patterns I use include:
-
-- Separate inference from authoritative data
-- Preserve source provenance
-- Make uncertainty explicit
-- Use deterministic rules for consequential readiness decisions
-- Require human approval where appropriate
-- Keep protected subject access separate from operational task access
-- Design graceful degradation when external providers are unavailable
-- Log consequential actions and state transitions
-
-This is the difference between **adding AI to a product** and **engineering a product that can use AI responsibly**.
-
----
-
-## Architecture patterns I work with
+## Architecture approach
 
 ```text
-User / Business Context
+Signal / User Intent
         │
         ▼
-Structured Domain Data
+Context + Structured Data
         │
-        ├── Rules & Permissions
-        ├── External Providers / APIs
-        ├── AI / LLM Intelligence
-        └── Human Review
-        │
-        ▼
-Workflow / Agent Engine
+        ├── Deterministic Rules
+        ├── Retrieval / Knowledge
+        ├── External APIs / Tools
+        └── LLM Intelligence
         │
         ▼
-Action → Audit → Measurement → Learning
+Agent / Workflow Orchestration
+        │
+        ├── Automated Action
+        ├── Human Approval
+        └── Escalation / Recovery
+        │
+        ▼
+Audit + Measurement + Feedback
 ```
 
-I increasingly design products around **signals → rules → AI → tools → actions → approvals**, with reusable workflow infrastructure instead of one-off automation scattered throughout the application.
+A useful AI system needs more than a model. It needs a reliable path from **intent to context, context to reasoning, reasoning to tools, tools to controlled action, and action to evidence**.
 
 ---
 
-## Technical toolkit
+## Agent patterns
 
-![Laravel](https://img.shields.io/badge/Laravel-1e4646?style=flat-square&logo=laravel&logoColor=white)
-![PHP](https://img.shields.io/badge/PHP-1e4646?style=flat-square&logo=php&logoColor=white)
-![MySQL](https://img.shields.io/badge/MySQL-1e4646?style=flat-square&logo=mysql&logoColor=white)
-![TailwindCSS](https://img.shields.io/badge/Tailwind_CSS-1e4646?style=flat-square&logo=tailwindcss&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-1e4646?style=flat-square&logo=javascript&logoColor=white)
-![OpenAI](https://img.shields.io/badge/OpenAI-1e4646?style=flat-square&logo=openai&logoColor=white)
-![Git](https://img.shields.io/badge/Git-1e4646?style=flat-square&logo=git&logoColor=white)
-![GitHub](https://img.shields.io/badge/GitHub-1e4646?style=flat-square&logo=github&logoColor=white)
+### Research agent
 
-**Product engineering:** Laravel · PHP · MySQL/MariaDB · Filament · Livewire · Blade · Tailwind CSS · JavaScript · WordPress · HTML/CSS
+Collects information from approved sources, structures evidence, identifies unknowns and produces a reviewable brief rather than an unsupported answer.
 
-**AI & automation:** OpenAI APIs · LLM workflows · AI agents · structured outputs · document intelligence · workflow automation · ChatGPT · Claude · Make · Zapier
+### Planning agent
 
-**Data & growth systems:** SQL · HubSpot · Pipedrive · Customer.io · GA4 · Google Tag Manager · Looker Studio · SEMrush · Ahrefs · Apollo · Brevo
+Combines user constraints, domain data, preferences and available tools to build or update a plan while preserving the assumptions behind it.
 
-**Delivery & operations:** Git/GitHub · migrations · automated testing · release validation · backups/restores · DNS/TLS · scheduled jobs · production debugging · API/OAuth integrations
+### Monitoring agent
 
----
+Watches a defined source, event stream or operational state and acts only when a meaningful condition changes.
 
-## Built across multiple digital product categories
+### Document review agent
 
-My hands-on work spans more than one product type:
+Extracts fields, normalizes evidence, detects inconsistencies and routes uncertain or consequential findings to a person.
 
-`AI SaaS` · `TravelTech` · `B2B SaaS` · `E-commerce` · `Institutional platforms` · `Multilingual websites` · `Growth infrastructure` · `Workflow automation`
+### Operations agent
 
-That range matters to me because architecture should follow the problem. A commerce experience, a sensitive-document workflow, a travel platform and an internal growth system should not be designed as the same application with different branding.
+Monitors queues, incomplete work, provider failures and deadlines, then creates tasks, notifications or escalation paths.
+
+### Content intelligence agent
+
+Uses search data, content structure and source freshness to identify gaps, update opportunities and AI-search visibility issues.
 
 ---
 
-## Growth experience behind the engineering
+## Example workflow patterns
 
-Before moving deeply into product architecture and engineering, I spent more than a decade building commercial systems across technology and international travel.
-
-Some outcomes from that work include:
-
-- Helped scale a business from early commercial foundations to **€5M+ annual revenue**
-- Increased organic traffic by **10×**
-- Improved funnel conversion from approximately **6% to 23%**
-- Delivered **135% of lead target** and **117% of sales-opportunity target** in a best-performing year
-- Built multilingual acquisition across international markets
-- Built and led sales, marketing, lifecycle, product-marketing and GTM systems
-- Worked across pricing, positioning, partnerships, customer acquisition, sales enablement and product launches
-
-That experience shapes how I engineer products. I naturally think about activation, adoption, discoverability, conversion, retention, operating cost and revenue while making product decisions.
-
----
-
-## Education & continuous learning
-
-- **B.Sc. Information Technology / Computer Science**
-- **MBA / Business Administration & Marketing**
-- AI Literacy, Growth Marketing & Business Analytics
-- Machine Learning
-- Product Design
-- Agile Project Management
-- Blockchain & Web3
-- European Studies: History, Culture, Law & EU Governance
-
----
-
-## Writing & research
-
-I write about AI, technology, growth and the relationship between machine intelligence and human judgement.
-
-[![Read on HackerNoon](https://img.shields.io/badge/Read_my_articles_on-HackerNoon-1e4646?style=for-the-badge&logo=hackernoon&logoColor=white)](https://hackernoon.com/u/pankajvnt)
-
-Topics include decentralized AI infrastructure, trustworthy AI, human interpretation of machine output, growth systems, customer-centric revenue and the limits of paid acquisition.
-
----
-
-## How I think about technology
+### Source change monitoring
 
 ```text
-Product strategy
-      ↓
-System architecture
-      ↓
-Data + workflows + permissions
-      ↓
-AI + APIs + automation
-      ↓
-Working product
-      ↓
-Distribution + adoption + revenue
+Official / trusted source
+        ↓
+Fetch + normalize
+        ↓
+Hash / change detection
+        ↓
+AI-assisted difference analysis
+        ↓
+Human review
+        ↓
+Approved structured update
+        ↓
+Affected workflow notification
 ```
 
-I do not see **engineering, product and growth as separate disciplines**. The most interesting work happens where they overlap.
+### Document readiness
 
-<div align="center">
+```text
+Upload
+  ↓
+Validate
+  ↓
+Extract
+  ↓
+Normalize
+  ↓
+Apply deterministic checks
+  ↓
+Detect inconsistencies
+  ↓
+Human review where required
+  ↓
+Readiness state + explanation
+```
 
-### Building intelligent products that connect technology with growth.
+### Agent action
 
-[LinkedIn](https://www.linkedin.com/in/pankajvnt/) · [HackerNoon](https://hackernoon.com/u/pankajvnt) · [GitHub](https://github.com/pktpankaj)
+```text
+Signal
+  ↓
+Eligibility / permission check
+  ↓
+Context assembly
+  ↓
+Agent reasoning
+  ↓
+Tool call
+  ↓
+Validation
+  ↓
+Action or approval request
+  ↓
+Audit event
+```
 
-</div>
+---
+
+## Technical direction
+
+**Application layer**  
+Laravel · PHP · relational data models · service architecture · queues/jobs · scheduled operations
+
+**AI layer**  
+OpenAI APIs · LLM workflows · tool calling · structured outputs · retrieval · document intelligence · model abstraction
+
+**Integration layer**  
+REST APIs · OAuth · webhooks · external providers · field mapping · provider adapters
+
+**Control layer**  
+Policies · roles · permissions · approval gates · audit logs · provenance · rate limits · failure handling
+
+**Quality layer**  
+Automated tests · regression checks · contract validation · production verification · rollback/recovery planning
+
+---
+
+## Design principles
+
+**AI should not silently become the source of truth.**  
+Authoritative domain data stays separate from inference.
+
+**Agents should have bounded authority.**  
+The ability to reason does not imply permission to act.
+
+**Consequential actions need evidence.**  
+Sources, inputs, tool calls and state changes should be traceable.
+
+**Automation needs recovery paths.**  
+External providers fail, models fail and data is incomplete. Systems should degrade safely.
+
+**Human review is an architectural component.**  
+It should be designed into workflows rather than added after something goes wrong.
+
+**AI should create leverage, not opacity.**  
+A user or operator should be able to understand why the system reached an important conclusion.
+
+---
+
+## Current areas of exploration
+
+- Reusable agent and workflow engines
+- Persistent context without uncontrolled memory
+- Tool authorization and action boundaries
+- Multi-agent orchestration where specialization adds value
+- Source-backed research systems
+- Document extraction and verification
+- Translation workflows with assignment, review and approval
+- AI-assisted operational monitoring
+- Traveller and business context graphs
+- AI search visibility and content intelligence
+- Provider-neutral AI architecture
+- Cost, latency and reliability controls
+
+---
+
+## Broader perspective
+
+My work in AI sits at the intersection of **product engineering, automation and growth systems**. I am interested in how intelligent software moves beyond chat interfaces and becomes part of the operating architecture of a product.
+
+The recurring pattern is:
+
+```text
+Understand the problem
+        ↓
+Model the domain
+        ↓
+Define the authoritative data
+        ↓
+Choose where AI adds value
+        ↓
+Give AI bounded tools
+        ↓
+Design approval and recovery
+        ↓
+Measure the outcome
+```
+
+That is the standard I use when deciding whether a workflow actually needs AI.
+
+---
+
+**Profile:** [github.com/pktpankaj](https://github.com/pktpankaj)  
+**Writing:** [HackerNoon](https://hackernoon.com/u/pankajvnt)  
+**Professional:** [LinkedIn](https://www.linkedin.com/in/pankajvnt/)
