@@ -1,75 +1,301 @@
+<div align="center">
+
 # Pankaj Thakur
 
-### Marketing operations, AI automation and product development
+### AI Product & Technology Leader · Growth Engineering · Intelligent Systems
 
-Paris, France · [LinkedIn](https://www.linkedin.com/in/pankajvnt/) · [GitHub](https://github.com/pktpankaj)
+**I build technology around the customer journey, the operating model and the business outcome.**
 
-I connect commercial strategy with the systems needed to put it into practice. My background spans 15 years in sales, marketing and B2B growth. Alongside leading marketing teams, I build web applications, connect business tools and develop automation around real operational problems.
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-1e4646?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/pankajvnt/)
+[![HackerNoon](https://img.shields.io/badge/HackerNoon-Author-1e4646?style=for-the-badge&logo=hackernoon&logoColor=white)](https://hackernoon.com/u/pankajvnt)
+[![GitHub](https://img.shields.io/badge/GitHub-Portfolio-1e4646?style=for-the-badge&logo=github&logoColor=white)](https://github.com/pktpankaj)
 
-My current development work centres on SkyZeg, a travel platform built with Laravel, and Wionsulting, an early-stage workspace for B2B growth. I use AI-assisted development to turn product requirements into working software, then review the implementation through tests, documentation and practical validation.
-
-## Selected development work
-
-### SkyZeg — travel platform and traveller services
-
-I am developing SkyZeg on a shared Laravel application, bringing together travel content, administration and private traveller features. The work includes:
-
-- **Content management:** Filament administration for destinations, journeys, itineraries, departures, accommodation, guides and reusable page content.
-- **Multilingual publishing:** ten-language content architecture, translated URLs, language fallbacks and publication rules.
-- **Public experience:** responsive Blade templates, mobile navigation, search across eight content types, pagination and enquiry forms.
-- **SEO foundations:** canonical URLs, hreflang, structured data, sitemaps and explicit indexing controls.
-- **Media management:** a shared media library with reusable content assignments, visibility rules and server-side image handling.
-- **Access and privacy:** staff permissions, separate traveller access, owner-scoped records and consent-controlled sharing.
-- **Traveller and commerce foundations:** progressive profiles, trip records, bounded traveller context and provider-neutral booking structures.
-- **Engineering practice:** database migrations, automated PHP tests, JavaScript interaction checks, deployment documentation and rollback preparation.
-
-The platform remains in development. Implemented foundations do not imply that all traveller services, supplier connections or payment processing are live.
-
-**Stack:** PHP · Laravel · MySQL/MariaDB · Filament · Livewire · Blade · HTML · CSS · JavaScript · Tailwind CSS · PHPUnit · Git/GitHub
-
-### Wionsulting — AI-assisted B2B growth workspace
-
-I am shaping Wionsulting around a practical problem: helping B2B teams decide which accounts fit their product, understand the evidence and prepare a relevant approach.
-
-The repository currently contains a Laravel application scaffold and development tooling. The product workflows below are planned and are being developed incrementally:
-
-| Planned workflow | Intended output |
-| --- | --- |
-| Company research | A sourced account brief with relevant business facts |
-| ICP qualification | Fit assessment with reasons, exclusions and unknowns |
-| Use-case matching | An explanation of how the customer's product could help |
-| Outreach preparation | Personalised drafts for human review |
-| Review and measurement | Approval history, feedback, usage and cost tracking |
-
-The proposed first release uses CSV/manual inputs and OpenAI-powered research and analysis. CRM integrations and broader AI search visibility monitoring are later possibilities. These are product plans, rather than claims of completed functionality.
-
-## Technical focus
-
-| Area | Practical focus |
-| --- | --- |
-| Application development | Laravel services, Eloquent models, relational data, validation and server-rendered interfaces |
-| Administration | Filament resources, Livewire interactions and role-based permissions |
-| AI-assisted workflows | Task definition, structured outputs, evidence, approval boundaries and output review |
-| Integrations | API-based workflows, field mapping and controlled movement of business data |
-| Quality and delivery | PHPUnit, regression checks, Git history, documented releases and environment configuration |
-| Discoverability | Technical SEO, multilingual publishing and research into AI search visibility |
-
-## Marketing and commercial experience
-
-My development work builds on experience in positioning, acquisition, lifecycle marketing, CRM operations and commercial reporting. I have worked with HubSpot, Pipedrive, Customer.io, Brevo, GA4, Google Tag Manager and Looker Studio.
-
-Selected roles include Head of Growth at mypaperwork.ai, Head of Marketing at Wello Solutions, freelance work in the CEO Office at Predictive AI, and Head of Growth at freihandlabor. Earlier roles included co-founding SkyZeg and leading international sales and marketing at Parallels and Meridians.
-
-That background helps me define what an application should accomplish for its users, which information matters and how to judge whether a workflow is useful.
-
-## How I work
-
-I start with the business process and expected result, then define the data, permissions and steps needed to support it. For AI workflows, I want source-backed recommendations, explicit unknowns and a clear point where a person reviews consequential actions.
-
-I use ChatGPT and other development tools as part of that process. Product judgement, testing and release decisions remain essential parts of the work.
-
-[Contact me on LinkedIn](https://www.linkedin.com/in/pankajvnt/)
+</div>
 
 ---
 
-**Portfolio:** The [EUICCI repository](https://github.com/pktpankaj/EUICCI) also hosts this portfolio alongside the EUICCI HTML preview and language files. [View the EUICCI preview source](https://github.com/pktpankaj/EUICCI/blob/main/euicci_chamber_grade_preview.html).
+## Technology leadership, strengthened by 15 years of growth experience
+
+My background started on the commercial side of technology: building acquisition engines, launching products, shaping positioning and pricing, designing go-to-market systems, improving conversion and creating the operating infrastructure behind growth.
+
+Over time that work moved deeper into product and engineering. Today I work across **product strategy, system architecture, full-stack development, applied AI, automation, data models, APIs, security, production operations and growth engineering**.
+
+I am most useful where these disciplines meet. I can move from a business problem to a product model, from the product model to an architecture, and from the architecture to a working system while keeping distribution, adoption and revenue in view.
+
+> **The goal is not technology for its own sake. It is building systems that solve useful problems and can actually grow.**
+
+---
+
+## What I build
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+### 🤖 AI & Intelligent Systems
+
+- Applied LLM architecture
+- AI agents and tool-driven workflows
+- Structured outputs and guardrails
+- Document intelligence
+- AI-assisted research and recommendations
+- Human-in-the-loop review
+- Source-backed AI workflows
+- Translation and localization automation
+- AI search / AEO / GEO systems
+
+</td>
+<td width="50%" valign="top">
+
+### ⚙️ Product & Platform Engineering
+
+- Laravel / PHP applications
+- Relational data architecture
+- Filament administration platforms
+- Livewire / Blade product interfaces
+- REST/API integrations
+- OAuth and external providers
+- Role and policy-based authorization
+- Multilingual platforms
+- Production deployment and recovery
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+### 🔁 Automation & Operations
+
+- Workflow engines
+- Signals → rules → actions
+- Assignment and approval systems
+- Operational task orchestration
+- CRM and lifecycle automation
+- Scheduled/background operations
+- Notifications and escalation
+- Audit trails and provenance
+- Human approval boundaries
+
+</td>
+<td width="50%" valign="top">
+
+### 📈 Growth Engineering
+
+- GTM systems
+- Product-led growth
+- Demand and pipeline architecture
+- CRM infrastructure
+- Lifecycle systems
+- Experimentation
+- Technical SEO
+- AEO / AI discoverability
+- Analytics and attribution
+- Pricing and packaging
+
+</td>
+</tr>
+</table>
+
+---
+
+## Selected systems & product work
+
+### 🌍 AI-native travel platform
+
+A multi-product travel technology platform built around a persistent traveller relationship rather than a collection of disconnected booking pages.
+
+**Product architecture**
+
+`Discover → Clear → Plan → Book → Connect → Travel → Remember`
+
+The system combines independently usable product domains for travel discovery, visa intelligence, AI assistance, traveller context, experiences, commerce and social travel.
+
+**Engineering scope**
+
+- Laravel 13 / PHP 8.4 / MySQL-MariaDB platform architecture
+- Filament 5 operational administration
+- Livewire, Blade and Tailwind application interfaces
+- Ten-language publishing architecture
+- Traveller profile and structured Traveller Graph
+- Provider-neutral commerce and booking foundations
+- AI travel assistance and trip intelligence
+- Structured visa knowledge and deterministic readiness logic
+- Sensitive-document privacy boundaries
+- Social discovery, activities, groups, messaging and moderation architecture
+- Shared operational workflow engine
+- Translation assignment, review, approval and rework lifecycle
+- Intelligent media ingestion, classification and review
+- SEO-safe public/private content architecture
+- Git-based releases, migrations, backups, restore validation and production reconciliation
+
+A central design principle is that **AI can interpret and assist without becoming the authoritative source of truth**. High-consequence workflows combine structured data, deterministic rules, provenance, controlled AI assistance and human review.
+
+**Stack:** `Laravel` · `PHP` · `MySQL/MariaDB` · `Filament` · `Livewire` · `Blade` · `Tailwind CSS` · `OpenAI` · `OAuth` · `REST APIs` · `PHPUnit` · `Git/GitHub`
+
+---
+
+### 🧠 AI growth operating system
+
+A growth platform designed to turn business context, market data and connected systems into practical work rather than isolated AI prompts.
+
+The product architecture spans:
+
+- Business onboarding and persistent workspace context
+- AI-generated growth planning
+- Website connection and technical/site auditing
+- Search Console and analytics data
+- Keyword, competitor and search-intent intelligence
+- SEO task management
+- AI-search visibility / GEO monitoring
+- Content strategy and content studio workflows
+- Social, email and paid-media operations
+- Lead capture and CRM pipeline
+- Prospecting and enrichment architecture
+- Analytics, attribution and executive reporting
+- Billing, teams, roles and approvals
+- Security, privacy, retention and audit controls
+
+The underlying principle is simple: **OpenAI is one component of the system, not the system itself.** Verified search data, analytics, publishing, CRM, advertising, enrichment and billing require their own providers, contracts and data boundaries.
+
+---
+
+### 🔐 Applied AI with governance
+
+I am particularly interested in AI systems where reliability matters more than generating impressive text.
+
+Patterns I use include:
+
+- Separate inference from authoritative data
+- Preserve source provenance
+- Make uncertainty explicit
+- Use deterministic rules for consequential readiness decisions
+- Require human approval where appropriate
+- Keep protected subject access separate from operational task access
+- Design graceful degradation when external providers are unavailable
+- Log consequential actions and state transitions
+
+This is the difference between **adding AI to a product** and **engineering a product that can use AI responsibly**.
+
+---
+
+## Architecture patterns I work with
+
+```text
+User / Business Context
+        │
+        ▼
+Structured Domain Data
+        │
+        ├── Rules & Permissions
+        ├── External Providers / APIs
+        ├── AI / LLM Intelligence
+        └── Human Review
+        │
+        ▼
+Workflow / Agent Engine
+        │
+        ▼
+Action → Audit → Measurement → Learning
+```
+
+I increasingly design products around **signals → rules → AI → tools → actions → approvals**, with reusable workflow infrastructure instead of one-off automation scattered throughout the application.
+
+---
+
+## Technical toolkit
+
+![Laravel](https://img.shields.io/badge/Laravel-1e4646?style=flat-square&logo=laravel&logoColor=white)
+![PHP](https://img.shields.io/badge/PHP-1e4646?style=flat-square&logo=php&logoColor=white)
+![MySQL](https://img.shields.io/badge/MySQL-1e4646?style=flat-square&logo=mysql&logoColor=white)
+![TailwindCSS](https://img.shields.io/badge/Tailwind_CSS-1e4646?style=flat-square&logo=tailwindcss&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-1e4646?style=flat-square&logo=javascript&logoColor=white)
+![OpenAI](https://img.shields.io/badge/OpenAI-1e4646?style=flat-square&logo=openai&logoColor=white)
+![Git](https://img.shields.io/badge/Git-1e4646?style=flat-square&logo=git&logoColor=white)
+![GitHub](https://img.shields.io/badge/GitHub-1e4646?style=flat-square&logo=github&logoColor=white)
+
+**Product engineering:** Laravel · PHP · MySQL/MariaDB · Filament · Livewire · Blade · Tailwind CSS · JavaScript · WordPress · HTML/CSS
+
+**AI & automation:** OpenAI APIs · LLM workflows · AI agents · structured outputs · document intelligence · workflow automation · ChatGPT · Claude · Make · Zapier
+
+**Data & growth systems:** SQL · HubSpot · Pipedrive · Customer.io · GA4 · Google Tag Manager · Looker Studio · SEMrush · Ahrefs · Apollo · Brevo
+
+**Delivery & operations:** Git/GitHub · migrations · automated testing · release validation · backups/restores · DNS/TLS · scheduled jobs · production debugging · API/OAuth integrations
+
+---
+
+## Built across multiple digital product categories
+
+My hands-on work spans more than one product type:
+
+`AI SaaS` · `TravelTech` · `B2B SaaS` · `E-commerce` · `Institutional platforms` · `Multilingual websites` · `Growth infrastructure` · `Workflow automation`
+
+That range matters to me because architecture should follow the problem. A commerce experience, a sensitive-document workflow, a travel platform and an internal growth system should not be designed as the same application with different branding.
+
+---
+
+## Growth experience behind the engineering
+
+Before moving deeply into product architecture and engineering, I spent more than a decade building commercial systems across technology and international travel.
+
+Some outcomes from that work include:
+
+- Helped scale a business from early commercial foundations to **€5M+ annual revenue**
+- Increased organic traffic by **10×**
+- Improved funnel conversion from approximately **6% to 23%**
+- Delivered **135% of lead target** and **117% of sales-opportunity target** in a best-performing year
+- Built multilingual acquisition across international markets
+- Built and led sales, marketing, lifecycle, product-marketing and GTM systems
+- Worked across pricing, positioning, partnerships, customer acquisition, sales enablement and product launches
+
+That experience shapes how I engineer products. I naturally think about activation, adoption, discoverability, conversion, retention, operating cost and revenue while making product decisions.
+
+---
+
+## Education & continuous learning
+
+- **B.Sc. Information Technology / Computer Science**
+- **MBA / Business Administration & Marketing**
+- AI Literacy, Growth Marketing & Business Analytics
+- Machine Learning
+- Product Design
+- Agile Project Management
+- Blockchain & Web3
+- European Studies: History, Culture, Law & EU Governance
+
+---
+
+## Writing & research
+
+I write about AI, technology, growth and the relationship between machine intelligence and human judgement.
+
+[![Read on HackerNoon](https://img.shields.io/badge/Read_my_articles_on-HackerNoon-1e4646?style=for-the-badge&logo=hackernoon&logoColor=white)](https://hackernoon.com/u/pankajvnt)
+
+Topics include decentralized AI infrastructure, trustworthy AI, human interpretation of machine output, growth systems, customer-centric revenue and the limits of paid acquisition.
+
+---
+
+## How I think about technology
+
+```text
+Product strategy
+      ↓
+System architecture
+      ↓
+Data + workflows + permissions
+      ↓
+AI + APIs + automation
+      ↓
+Working product
+      ↓
+Distribution + adoption + revenue
+```
+
+I do not see **engineering, product and growth as separate disciplines**. The most interesting work happens where they overlap.
+
+<div align="center">
+
+### Building intelligent products that connect technology with growth.
+
+[LinkedIn](https://www.linkedin.com/in/pankajvnt/) · [HackerNoon](https://hackernoon.com/u/pankajvnt) · [GitHub](https://github.com/pktpankaj)
+
+</div>
