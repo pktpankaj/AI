@@ -1,153 +1,238 @@
+<div align="center">
+
 # AI Systems, Agents & Automation
 
-A working portfolio of patterns, architecture and implementation thinking for applied AI systems.
+### Architecture for intelligent products that can reason, act and remain accountable
 
-This repository focuses on the engineering layer behind useful AI products: **agents, tool use, workflow orchestration, structured outputs, retrieval, document intelligence, automation, guardrails, provenance and human approval**.
+**Agents · Tool use · Workflow orchestration · Structured outputs · Retrieval · Governance · Human approval**
 
-The emphasis is not on isolated prompts or AI-generated demos. It is on designing AI that can operate inside real products and business workflows with clear data boundaries, permissions, failure handling and measurable outcomes.
+[![Profile](https://img.shields.io/badge/Profile-1e4646?style=for-the-badge&logo=github&logoColor=white)](https://github.com/pktpankaj)
 
----
-
-## Core areas
-
-### AI agents
-
-- Tool-driven agents
-- Specialized agents with bounded responsibilities
-- Multi-step task execution
-- Context and state management
-- Signal-driven agent activation
-- Human escalation and approval
-- Agent observability and auditability
-
-### Workflow automation
-
-- Signals → rules → actions
-- Assignment and review workflows
-- Scheduled and event-driven operations
-- Notifications and escalation
-- State transitions
-- Rework and resubmission loops
-- Idempotent operations
-- Failure recovery
-
-### Applied LLM systems
-
-- Structured outputs
-- Schema-constrained responses
-- Prompt and context design
-- Retrieval and grounded generation
-- Source-backed recommendations
-- Confidence and uncertainty handling
-- Model/provider abstraction
-- Cost and usage controls
-
-### Document intelligence
-
-- Extraction from structured and unstructured documents
-- Classification
-- Field normalization
-- Cross-document consistency checks
-- Evidence provenance
-- Human correction workflows
-- Sensitive-document access boundaries
-
-### AI governance
-
-- Deterministic rules for consequential decisions
-- Human-in-the-loop review
-- Permission-aware tool access
-- Provenance and audit trails
-- Explicit unknowns
-- Graceful degradation
-- Separation of inference from authoritative data
-
-### AI search and discoverability
-
-- AEO / GEO architecture
-- AI-search visibility monitoring
-- Entity and topic structures
-- Source and citation readiness
-- Content freshness workflows
-- Search data combined with AI interpretation
+</div>
 
 ---
 
-## Architecture approach
+<table>
+<tr>
+<td width="40%" valign="top">
+
+### Executive view
+
+This repository is about **applied AI architecture**, not prompt experiments.
+
+The focus is on how AI operates inside real products, where models need context, permissions, tools, recovery paths, evidence and measurable outcomes.
+
+</td>
+<td width="60%" valign="top">
+
+### Core operating model
 
 ```text
-Signal / User Intent
-        │
-        ▼
-Context + Structured Data
-        │
-        ├── Deterministic Rules
-        ├── Retrieval / Knowledge
-        ├── External APIs / Tools
-        └── LLM Intelligence
-        │
-        ▼
+Signal / Intent
+      ↓
+Context + Domain Data
+      ↓
+Rules + Retrieval + Tools + AI
+      ↓
 Agent / Workflow Orchestration
-        │
-        ├── Automated Action
-        ├── Human Approval
-        └── Escalation / Recovery
-        │
-        ▼
+      ↓
+Action / Approval / Escalation
+      ↓
 Audit + Measurement + Feedback
 ```
 
-A useful AI system needs more than a model. It needs a reliable path from **intent to context, context to reasoning, reasoning to tools, tools to controlled action, and action to evidence**.
+</td>
+</tr>
+</table>
 
 ---
 
-## Agent patterns
+## System layers
+
+<table>
+<tr>
+<td width="25%" valign="top">
+
+### Intelligence
+
+LLM reasoning  
+Structured outputs  
+Retrieval  
+Document intelligence  
+Planning  
+Classification  
+Recommendation systems
+
+</td>
+<td width="25%" valign="top">
+
+### Orchestration
+
+Agent routing  
+Workflow state  
+Tool execution  
+Scheduling  
+Event-driven actions  
+Escalation  
+Recovery
+
+</td>
+<td width="25%" valign="top">
+
+### Control
+
+Permissions  
+Approval gates  
+Deterministic checks  
+Provenance  
+Rate limits  
+Failure handling  
+Auditability
+
+</td>
+<td width="25%" valign="top">
+
+### Integration
+
+REST APIs  
+OAuth  
+Webhooks  
+Provider adapters  
+Data mapping  
+External tools  
+Operational systems
+
+</td>
+</tr>
+</table>
+
+---
+
+## Agent portfolio
+
+<table>
+<tr>
+<td width="33%" valign="top">
 
 ### Research agent
 
-Collects information from approved sources, structures evidence, identifies unknowns and produces a reviewable brief rather than an unsupported answer.
+Builds evidence-backed briefs from approved sources.
+
+**Designed for**
+
+- source collection
+- evidence structuring
+- unknown detection
+- reviewable recommendations
+- citation-ready outputs
+
+</td>
+<td width="33%" valign="top">
 
 ### Planning agent
 
-Combines user constraints, domain data, preferences and available tools to build or update a plan while preserving the assumptions behind it.
+Turns constraints, domain data and available tools into a structured plan.
+
+**Designed for**
+
+- context-aware planning
+- constraint handling
+- assumptions tracking
+- iterative updates
+- tool-assisted execution
+
+</td>
+<td width="33%" valign="top">
 
 ### Monitoring agent
 
-Watches a defined source, event stream or operational state and acts only when a meaningful condition changes.
+Watches defined sources, states or events and reacts only when something meaningful changes.
+
+**Designed for**
+
+- scheduled checks
+- threshold detection
+- source changes
+- workflow triggers
+- operational alerts
+
+</td>
+</tr>
+<tr>
+<td width="33%" valign="top">
 
 ### Document review agent
 
-Extracts fields, normalizes evidence, detects inconsistencies and routes uncertain or consequential findings to a person.
+Extracts, normalizes and checks evidence while routing uncertainty to a person.
+
+**Designed for**
+
+- field extraction
+- normalization
+- cross-document checks
+- anomaly detection
+- review queues
+
+</td>
+<td width="33%" valign="top">
 
 ### Operations agent
 
-Monitors queues, incomplete work, provider failures and deadlines, then creates tasks, notifications or escalation paths.
+Monitors incomplete work, provider failures, deadlines and queues.
+
+**Designed for**
+
+- task creation
+- escalation
+- notifications
+- SLA monitoring
+- recovery workflows
+
+</td>
+<td width="33%" valign="top">
 
 ### Content intelligence agent
 
-Uses search data, content structure and source freshness to identify gaps, update opportunities and AI-search visibility issues.
+Combines search data, source freshness and content structure to surface gaps and opportunities.
+
+**Designed for**
+
+- AEO / GEO
+- freshness detection
+- topic gaps
+- AI-search visibility
+- update prioritization
+
+</td>
+</tr>
+</table>
 
 ---
 
-## Example workflow patterns
+## Workflow blueprints
+
+<table>
+<tr>
+<td width="33%" valign="top">
 
 ### Source change monitoring
 
 ```text
-Official / trusted source
-        ↓
+Trusted source
+      ↓
 Fetch + normalize
-        ↓
-Hash / change detection
-        ↓
-AI-assisted difference analysis
-        ↓
+      ↓
+Change detection
+      ↓
+AI difference analysis
+      ↓
 Human review
-        ↓
-Approved structured update
-        ↓
-Affected workflow notification
+      ↓
+Approved update
 ```
+
+</td>
+<td width="33%" valign="top">
 
 ### Document readiness
 
@@ -160,21 +245,22 @@ Extract
   ↓
 Normalize
   ↓
-Apply deterministic checks
+Deterministic checks
   ↓
-Detect inconsistencies
+Human review
   ↓
-Human review where required
-  ↓
-Readiness state + explanation
+Readiness state
 ```
 
-### Agent action
+</td>
+<td width="33%" valign="top">
+
+### Controlled agent action
 
 ```text
 Signal
   ↓
-Eligibility / permission check
+Permission check
   ↓
 Context assembly
   ↓
@@ -184,97 +270,258 @@ Tool call
   ↓
 Validation
   ↓
-Action or approval request
+Action / approval
   ↓
 Audit event
 ```
 
----
-
-## Technical direction
-
-**Application layer**  
-Laravel · PHP · relational data models · service architecture · queues/jobs · scheduled operations
-
-**AI layer**  
-OpenAI APIs · LLM workflows · tool calling · structured outputs · retrieval · document intelligence · model abstraction
-
-**Integration layer**  
-REST APIs · OAuth · webhooks · external providers · field mapping · provider adapters
-
-**Control layer**  
-Policies · roles · permissions · approval gates · audit logs · provenance · rate limits · failure handling
-
-**Quality layer**  
-Automated tests · regression checks · contract validation · production verification · rollback/recovery planning
+</td>
+</tr>
+</table>
 
 ---
 
-## Design principles
+## Applied AI domains
 
-**AI should not silently become the source of truth.**  
-Authoritative domain data stays separate from inference.
+<table>
+<tr>
+<td width="50%" valign="top">
 
-**Agents should have bounded authority.**  
+### Document intelligence
+
+- extraction from structured and unstructured documents
+- field normalization
+- evidence provenance
+- cross-document consistency checks
+- uncertainty handling
+- human correction workflows
+- sensitive-data access boundaries
+
+</td>
+<td width="50%" valign="top">
+
+### Search and discoverability
+
+- AEO / GEO architecture
+- AI-search visibility monitoring
+- entity and topic structures
+- citation readiness
+- source freshness
+- search data combined with AI interpretation
+- content intelligence workflows
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+### Operational automation
+
+- signals → rules → actions
+- assignment and review workflows
+- scheduled operations
+- event-driven actions
+- rework and resubmission loops
+- notifications and escalation
+- idempotency and recovery
+
+</td>
+<td width="50%" valign="top">
+
+### Controlled intelligence
+
+- structured outputs
+- schema-constrained responses
+- confidence boundaries
+- deterministic checks
+- human approval
+- model/provider abstraction
+- cost and usage controls
+
+</td>
+</tr>
+</table>
+
+---
+
+## Architecture principles
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+### Separate inference from authority
+
+AI can interpret and recommend. Authoritative domain data should remain explicit and controlled.
+
+### Bound agent authority
+
 The ability to reason does not imply permission to act.
 
-**Consequential actions need evidence.**  
-Sources, inputs, tool calls and state changes should be traceable.
+### Preserve evidence
 
-**Automation needs recovery paths.**  
-External providers fail, models fail and data is incomplete. Systems should degrade safely.
+Important decisions should retain sources, inputs, tool calls and state changes.
 
-**Human review is an architectural component.**  
-It should be designed into workflows rather than added after something goes wrong.
+</td>
+<td width="50%" valign="top">
 
-**AI should create leverage, not opacity.**  
-A user or operator should be able to understand why the system reached an important conclusion.
+### Design for failure
 
----
+Providers fail. Models fail. Inputs are incomplete. Safe recovery is part of the architecture.
 
-## Current areas of exploration
+### Make human review structural
 
-- Reusable agent and workflow engines
-- Persistent context without uncontrolled memory
-- Tool authorization and action boundaries
-- Multi-agent orchestration where specialization adds value
-- Source-backed research systems
-- Document extraction and verification
-- Translation workflows with assignment, review and approval
-- AI-assisted operational monitoring
-- Traveller and business context graphs
-- AI search visibility and content intelligence
-- Provider-neutral AI architecture
-- Cost, latency and reliability controls
+Approval should be designed into consequential workflows rather than added later.
+
+### Optimize for explainability
+
+Useful AI should increase leverage without making important decisions opaque.
+
+</td>
+</tr>
+</table>
 
 ---
 
-## Broader perspective
+## Technical stack by responsibility
 
-My work in AI sits at the intersection of **product engineering, automation and growth systems**. I am interested in how intelligent software moves beyond chat interfaces and becomes part of the operating architecture of a product.
+<table>
+<tr>
+<td width="20%" valign="top">
 
-The recurring pattern is:
+### Application
+
+Laravel  
+PHP  
+Relational data models  
+Service architecture  
+Queues / jobs
+
+</td>
+<td width="20%" valign="top">
+
+### AI
+
+OpenAI APIs  
+LLM workflows  
+Tool calling  
+Structured outputs  
+Retrieval
+
+</td>
+<td width="20%" valign="top">
+
+### Integration
+
+REST APIs  
+OAuth  
+Webhooks  
+Provider adapters  
+Field mapping
+
+</td>
+<td width="20%" valign="top">
+
+### Control
+
+Policies  
+Roles  
+Permissions  
+Approval gates  
+Audit logs
+
+</td>
+<td width="20%" valign="top">
+
+### Reliability
+
+Automated tests  
+Regression checks  
+Validation  
+Rollback  
+Recovery planning
+
+</td>
+</tr>
+</table>
+
+---
+
+## Current exploration
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+**Agent systems**
+
+- reusable agent and workflow engines
+- persistent context without uncontrolled memory
+- tool authorization and action boundaries
+- multi-agent orchestration where specialization adds value
+- provider-neutral AI architecture
+
+</td>
+<td width="50%" valign="top">
+
+**Operational intelligence**
+
+- source-backed research systems
+- document extraction and verification
+- translation review workflows
+- AI-assisted monitoring
+- traveller and business context graphs
+- cost, latency and reliability controls
+
+</td>
+</tr>
+</table>
+
+---
+
+## Decision framework
+
+<table>
+<tr>
+<td width="58%" valign="top">
 
 ```text
 Understand the problem
         ↓
 Model the domain
         ↓
-Define the authoritative data
+Define authoritative data
         ↓
-Choose where AI adds value
+Choose where AI adds leverage
         ↓
 Give AI bounded tools
         ↓
-Design approval and recovery
+Design approval + recovery
         ↓
 Measure the outcome
 ```
 
-That is the standard I use when deciding whether a workflow actually needs AI.
+</td>
+<td width="42%" valign="middle">
+
+### The question is not:
+
+**“Can AI do this?”**
+
+### The better question is:
+
+**“Where does AI create enough leverage to justify the complexity, risk and operating cost?”**
+
+</td>
+</tr>
+</table>
 
 ---
 
-**Profile:** [github.com/pktpankaj](https://github.com/pktpankaj)  
-**Writing:** [HackerNoon](https://hackernoon.com/u/pankajvnt)  
-**Professional:** [LinkedIn](https://www.linkedin.com/in/pankajvnt/)
+<div align="center">
+
+### Intelligent systems should be useful, bounded, observable and recoverable.
+
+[Profile](https://github.com/pktpankaj) · [LinkedIn](https://www.linkedin.com/in/pankajvnt/)
+
+</div>
